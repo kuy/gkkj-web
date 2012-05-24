@@ -67,18 +67,42 @@
 			  })();
 </script>
 <script type="text/javascript">
+
+
+
+	// ここに画像パスを追加する
+	// 表示の順番は最初の1枚だけいつも同じ、あとはランダム
+			var imArr = 
+				[
+					{src: '/img/photo/1.jpg'},
+			  		{src: '/img/photo/2.jpg'},
+			  		{src: '/img/photo/3.jpg'},
+			  		{src: '/img/photo/4.jpg'},
+			  		{src: '/img/photo/5.jpg'}
+			  	];
+
+
+			  var temp = [];
+			  
+			  var chooseRandom = function() {
+			  	var ind = Math.floor(Math.random() * imArr.length);
+			  	var tar = imArr[ind];
+			  	imArr.splice(ind,1);
+			  	temp.push(tar);
+			  }
+
+			  temp.push(imArr[0]);
+			  imArr.splice(0,1);
+
+			  while(imArr.length !== 0){
+			  	chooseRandom();
+			  }
+
 			  $(function() {
 			  	$('#unko').crossSlide({
 			  		sleep: 4.5,
 			  		fade: 0.8
-			  	},
-			  	[
-			  		{src: '/img/photo/1.jpg'},
-			  		{src: '/img/photo/2.jpg'},
-			  		{src: '/img/photo/3.jpg'},
-			  		{src: '/img/photo/4.jpg'},
-			  		{src: '/img/photo/5.jpg'},
-			  	]);
+			  	},temp);
 			  });
 	</script>
 </head>
