@@ -1,0 +1,28 @@
+.contents_r a :hover {
+    filter: alpha( opacity=55 ); /* IE */
+    opacity:0.55; /* Firefox,Opera,Safari */
+    -moz-opacity:0.55; /* Firefox 0.9‚æ‚è‘O */}
+   
+.contents_r img {
+	/* width: 283px;
+	height: 189px;*/
+	-moz-box-shadow: 1px 1px 1px #dcdad4;/* Firefox */
+	-webkit-box-shadow: 1px 1px 1px #dcdad4;
+	/* Safari,Google Chrome—p */
+	margin: 0 0 2px 0;
+}
+
+.bn_eria ul{
+	list-style: none;
+}
+
+.bn_eria li{
+	display: block;
+	font-size: 14px;
+	margin: 0 0 10px 0;
+}
+
+.text_link li a{
+	font-size: 15px;
+}
+

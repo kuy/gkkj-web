@@ -1,0 +1,57 @@
+h1 {
+	width: 423px;
+	height: 50px;
+	margin: 0 0 0 8px;
+	float: left;
+	display: block;
+}
+
+h2 {
+	width: 442px;
+	height: 35px;
+}
+
+.main{
+	width: 914px;
+	height: 300px;
+	padding: 15px 49px 30px 39px;
+	clear: both;
+}
+.main_l {
+	width: 483px;
+	height: 300px;
+	float: left;
+	display: block;
+}
+.main_r {
+	width: 423px;
+	height: 278px;
+	margin: 22px 0 0 8px;
+	float: left;
+	display: block;
+}
+
+.access {
+	width: 891px;
+	height: auto;
+	margin: 13px 0 0 49px;
+	clear: both;
+	background-color: #000000;
+}
+
+.access_l {
+	width: 301px;
+	height: auto;
+	margin: 13px 43px 0 22px;
+	float: left;
+	display: block;
+}
+
+.access_r {
+	width: 525px;
+	height: auto;
+	margin: 13px 0 0 0;
+	float: left;
+	background-color: #3f3f3f;
+	display: block;
+}

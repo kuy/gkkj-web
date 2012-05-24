@@ -1,0 +1,27 @@
+ul {
+list-style: none;
+margin: 0 0 0 1em;
+padding: 0;
+}
+
+.contents li {
+	background-repeat:no-repeat;
+	background-position:left center;
+	margin-left: 9px;
+}
+
+.pink {
+	list-style:url(/img/map/pink.png);
+}
+
+.yellow {
+	list-style:url(/img/map/yellow.png);
+}
+
+.blue {
+	list-style:url(/img/map/blue.png);
+}
+
+.green {
+	list-style:url(/img/map/green.png);
+}

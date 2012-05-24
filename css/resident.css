@@ -1,0 +1,31 @@
+.resident {
+	list-style: none;
+	clear: both;
+	overflow: hidden;
+}
+
+.resident li{
+	margin: 0 14px 14px 0;
+	float: left;
+	display: block;
+	font-size: 11px;
+}
+
+.resident ul{
+	list-style: none;
+}
+
+.resident li a :hover {
+    filter: alpha( opacity=35 ); /* IE */
+    opacity:0.35; /* Firefox,Opera,Safari */
+    -moz-opacity:0.35; /* Firefox 0.9‚æ‚è‘O */}
+
+.contents_r img {
+	/* width: 283px;
+	height: 189px;*/
+	background: #f1f3f3;
+	padding: 6px;
+	-moz-box-shadow: 1px 1px 1px #dcdad4;/* Firefox */
+	-webkit-box-shadow: 1px 1px 1px #dcdad4;
+	/* Safari,Google Chrome—p */
+}

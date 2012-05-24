@@ -1,0 +1,37 @@
+.main{
+	width: 914px;
+	height: 300px;
+	padding: 15px 49px 30px 39px;
+	coverflow: hidden;
+}
+.main_l {
+	width: 483px;
+	height: 300px;
+	float: left;
+	display: block;
+	position: relative;
+}
+#main_photo_container{
+	width:445px;
+	height:277px;
+	background-image: url('/img/index/mainVisual.png');
+	margin-left:25px;
+	margin-top:23px;
+	position:relative;
+}
+#main_photo_outer{
+	position: absolute;
+	left:11px;
+	top:10px;
+}
+#unko{
+	width:420px;
+	height:250px;
+}
+.main_r {
+	width: 423px;
+	height: 278px;
+	margin: 22px 0 0 8px;
+	float: left;
+	display: block;
+}
