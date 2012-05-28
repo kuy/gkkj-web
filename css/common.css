@@ -7,14 +7,26 @@
 a {
 	outline:none;
 	}
+	
+a:link {
+	color: #e5670a;
+	}
+	
+a:visited {
+	color: #e5670a;
+	}
+	
+a:hover {
+	text-decoration: none;
+}
 
 img {
    vertical-align:bottom
 }
 
 body {
-	/*font-family: "‚l‚r ‚oƒSƒVƒbƒN","‚l‚r ƒSƒVƒbƒN",sans-serif;*/
-	font-family:"Meiryo","Hiragino Kaku Gothic Pro", "ƒqƒ‰ƒMƒmŠpƒS Pro W3";
+	/*font-family: "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯","ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯",sans-serif;*/
+	font-family:"Meiryo","Hiragino Kaku Gothic Pro", "ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ Pro W3";
 	line-height: normal;
 	color: #705d4f;
 	font-size: 14px;
@@ -22,19 +34,19 @@ body {
 	padding: 0 0 75px 0;
 }
 
-/*”½“]‚Ì•¶šF‚Æ”wŒiF */
+/*åè»¢æ™‚ã®æ–‡å­—è‰²ã¨èƒŒæ™¯è‰² */
 ::selection {
-background: #ffd871;@@/* ”wŒiF*/
-color:#705d4f;@@/* •¶šF*/
+background: #ffd871;ã€€ã€€/* èƒŒæ™¯è‰²*/
+color:#705d4f;ã€€ã€€/* æ–‡å­—è‰²*/
 }
-/* Firefox‘Î‰*/
+/* Firefoxå¯¾å¿œ*/
 ::-moz-selection {
-background: #ffd871;@@/* ”wŒiF*/
-color:#705d4f; @@/* •¶šF*/
+background: #ffd871;ã€€ã€€/* èƒŒæ™¯è‰²*/
+color:#705d4f; ã€€ã€€/* æ–‡å­—è‰²*/
 }
 
 * html body{  
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 * html div.wrapper {  
@@ -53,10 +65,10 @@ color:#705d4f; @@/* •¶šF*/
 	height: auto;
 	background-image: url("/img/common/bg.gif");
  	background-repeat: repeat;
- 	margin-bottom: -300px;
+ 	margin-bottom: -10px;
 }
 
-header {
+.header {
 	width: 1052px;
 	height: 91px;
 	margin: 0 auto;
@@ -147,10 +159,10 @@ header {
 .container {
 	width: 1002px;
 	height: auto;
-	min-height: 600px;
-	/*height: auto;*/
-	margin: 0 auto;
+	min-height: 800px;
+	_height: 800px;
 	padding-bottom: 200px;
+	margin: 0 auto;
 	background-color: #fffcf6;
 }
 
@@ -204,7 +216,7 @@ header {
 	padding: 10px;
 	-moz-box-shadow: 2px 2px 2px #dcdad4;/* Firefox */
 	-webkit-box-shadow: 2px 2px 2px #dcdad4;
-	/* Safari,Google Chrome—p */
+	/* Safari,Google Chromeç”¨ */
 }
 
 .line {
@@ -214,7 +226,7 @@ header {
 	padding-bottom: 26px;
 }
 
-footer {  
+.footer {  
     position: fixed !important;
     position: absolute;
     bottom: 0;
@@ -222,13 +234,8 @@ footer {
     width: 100%;
     height: 75px;
 	background-image: url("/img/common/footer.png");
+	clear: both;
 }  
-
-.footer_box {
-	width: 1002px;
-	height: 75px;
-	margin: 0 auto;
-}
 
 .house {  
     width: 86px;
@@ -255,4 +262,6 @@ footer {
 	color: #9d8651;
 	font-size: 13px;
 	text-align: center;
+	text-shadow: #8a6e59 0px 0px 5px;
+	clear: both;
 }

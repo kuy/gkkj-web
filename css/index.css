@@ -35,3 +35,11 @@
 	float: left;
 	display: block;
 }
+
+.contents_l img {
+	background: #f1f3f3;
+	padding: 10px;
+	-moz-box-shadow: 2px 2px 2px #dcdad4;/* Firefox */
+	-webkit-box-shadow: 2px 2px 2px #dcdad4;
+	/* Safari,Google Chrome—p */
+}

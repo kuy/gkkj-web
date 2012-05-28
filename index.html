@@ -1,10 +1,32 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+<!--
+
+　┏┓□　 　 ┏━┓　┏┓　┏┓　┏━┓　 
+┏┛┗□　 　 ┃┃┃┏┫┃┏┛┗┓┗┓┃　 
+┗┓┏┛┏━┓┃┃┃┃┃┃┃┏┓┃  ┃┃　 
+┏┛┗┓┗━┛┗┫┃┃┃┃┗┛┃┃  ┃┗┓
+┗┓┏┛　 　　 ┃┃┃┃┃　┏┛┃┏┛┃┃
+　┗┛　 　 　  ┗┛┗┻┛　┗━┛┗━┻┛
+		┏━□┏━┓┏━┓　┏□
+		┗┓□┗┓┃┃┃┃┏┫□
+		  ┃┃　┃┃┃┃┃┣┫┃
+		  ┃┃　┃┃┗┫┃┗┫┃
+		┏┛┃┏┛┃　┃┃┏┛┃
+		┗━┛┗━┛　┗┛┗━┛
+
+-->
 	<meta charset="UTF-8">
 	<meta name="keywords" content="ギークハウス護国寺,ギークハウス文京護国寺">
-	<meta name="description" content="ギークハウス文京護国寺のHOME">
+	<meta name="description" content="ギークハウス文京護国寺">
+	<meta name="viewport" content="width=1080, ">
 	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta property="og:title" content="ギークハウス護国寺の公式サイト">
+	<meta property="og:image" content="/img/common/facebook_img.jpg"/>
+	<meta property="og:url" content="http://gkkj.org/">
+	<meta property="og:site_name" content="ギークハウス護国寺">
+	<meta property="fb:admins" content="242544389170947"/>
 	<link rel="stylesheet" href="/css/common.css" type="text/css"/>
 	<link rel="stylesheet" href="/css/index.css" type="text/css"/>
 	<script type="text/javascript" src="/js/rollover.js">
@@ -51,7 +73,7 @@
 	</script>
 	<script src="/js/jquery.cross-slide.js" type="text/javascript">
 	</script>
-	<title>ギークハウス護国寺 HOME</title>
+	<title>ギークハウス護国寺</title>
 	<script type="text/javascript">
 				  var _gaq = _gaq || [];
 			  _gaq.push(['_setAccount', 'UA-18700930-7']);
@@ -69,17 +91,14 @@
 <script type="text/javascript">
 
 
-
-	// ここに画像パスを追加する
-	// 表示の順番は最初の1枚だけいつも同じ、あとはランダム
-			var imArr = 
-				[
-					{src: '/img/photo/1.jpg'},
+			var imArr = [{src: '/img/photo/1.jpg'},
 			  		{src: '/img/photo/2.jpg'},
 			  		{src: '/img/photo/3.jpg'},
 			  		{src: '/img/photo/4.jpg'},
-			  		{src: '/img/photo/5.jpg'}
-			  	];
+			  		{src: '/img/photo/5.jpg'},
+			  		{src: '/img/photo/6.jpg'},
+			  		{src: '/img/photo/7.jpg'},
+			  		{src: '/img/photo/8.jpg'}]
 
 
 			  var temp = [];
@@ -109,7 +128,7 @@
 <body>
 		<div class="head_l"></div>
 		<div class="wrapper">
-			<header>
+			<div class="header">
 				<div class="logo">
 					<a href="/" name="top"><img src="/img/common/logo_off.png"></a>
 				</div>
@@ -129,7 +148,7 @@
 						<g:plusone size="small"></g:plusone>
 					</div>
 				</div>
-			</header>
+			</div>
 			<a href="https://github.com/you">
 				<img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub">
 			</a>
@@ -172,7 +191,7 @@
 							<h1 class="main_h">
 								<img src="/img/index/h1.jpg" alt="ギークハウス護国寺とは" width="423" height="50">
 							</h1>
-							<img src="/img/index/concept.jpg" alt="ギークハウス護国寺ってこんなところです" width="423" height="228">
+							<img src="/img/index/concept.jpg" alt="ギークハウス護国寺ってこんなところです" width="423" height="228" style="margin-left:5px;">
 						</div>
 					</div>
 					<div class="line">
@@ -202,18 +221,16 @@
 				<!-- コンテンツここまで-->
 			</div>
 		</div>
-		<footer>
-			<div class="footer_box">
-				<div class="copy">
-					良い子はマネしないでね Copyright © 2011 - 2012 Geek House Gokokuji
-				</div>
-				<div class="house">
-					<img src="/img/common/house.png">
-				</div>
-				<div class="cat">
-					<a href="#top" class="scrollable"><img src="/img/common/cat.png"></a>
-				</div>
+		<div class="footer">
+			<div class="copy">
+				良い子はマネしないでね Copyright © 2011 - 2012 Geek House Gokokuji
 			</div>
-		</footer>
+			<div class="house">
+				<img src="/img/common/house.png">
+			</div>
+			<div class="cat">
+				<a href="#top" class="scrollable"><img src="/img/common/cat.png"></a>
+			</div>
+		</div>
 	</body>
 </html>
